@@ -1,4 +1,4 @@
-ANOMALY LVLM
+AnomalyGPT
 ===========================
 
 .. raw:: html
@@ -9,15 +9,15 @@ ANOMALY LVLM
 
    <p>
       <span style="color:#000080; font-size: 30px;"><strong>
-         Industrial Image Prompt Segmentation with Foundation Models documentation
+      AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
       </strong></span>
    </p>
 
-.. figure:: /Documentation/images/IM.jpg
+.. figure:: /Documentation/images/anomalygpt_im.jpg
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
-  
+   :border: 2px solid black
    
 
 
