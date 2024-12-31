@@ -39,6 +39,8 @@ Roles in Project
 -------------------------------
 
 .. raw:: html
+    
+    <p>This is <span style="color:red;">red</span> text.</p>
 
     <p style="text-align: justify;"><span style="color:#000000;"><i>
     1. Understanding User Queries : <br>
