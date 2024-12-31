@@ -14,21 +14,22 @@ ___________________________
 
    </span></p>
 
-   .. figure:: /Documentation/images/compare.jpg
+.. figure:: /Documentation/images/compare.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
 
+.. raw:: html
+
     <p style="text-align: justify;"><i>
-
-    - <span style="color:blue;">Key Features :</span><span style="color:#000080;"> 
-
-      Automated Anomaly Judgments: Eliminates the need for manual threshold adjustments.
-      Pixel-Level Localization: Detects anomalies with high precision.
-      Few-Shot Learning: Adapts to new datasets using a single normal sample.
+    - <span style="color:blue;">Key Features :</span><span style="color:#000080;"><br>
+      Automated Anomaly Judgments: Eliminates the need for manual threshold adjustments.<br>
+      Pixel-Level Localization: Detects anomalies with high precision.<br>
+      Few-Shot Learning: Adapts to new datasets using a single normal sample.<br>
       Multi-Turn Dialogue: Provides interactive insights for industrial anomaly detection.
+    </span></i>
+   </p>
 
-    </i></span></p>
 
 
     <p style="text-align: justify;"><i>
