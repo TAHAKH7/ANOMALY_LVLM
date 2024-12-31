@@ -48,11 +48,11 @@ AnomalyGPT
    :maxdepth: 4
    :caption: AI MODULES FOR AnomalyGPT
    
-   Documentation/scripts/foundation-models/Natural Language Processing.rst
-   Documentation/scripts/foundation-models/Computer Vision.rst
-   Documentation/scripts/foundation-models/Convolutional Neural Networks.rst
-   Documentation/scripts/foundation-models/Neural Networks.rst
-   Documentation/scripts/foundation-models/GroundingSam with customized weights.rst
+   Documentation/scripts/AI MODULES FOR AnomalyGPT/Natural Language Processing.rst
+   Documentation/scripts/AI MODULES FOR AnomalyGPT/Computer Vision.rst
+   Documentation/scripts/AI MODULES FOR AnomalyGPT/Convolutional Neural Networks.rst
+   Documentation/scripts/AI MODULES FOR AnomalyGPT/Neural Networks.rst
+   Documentation/scripts/AI MODULES FOR AnomalyGPT/GroundingSam with customized weights.rst
 
 .. raw:: html
 
