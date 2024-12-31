@@ -40,7 +40,7 @@ Roles in Project
 
 .. raw:: html
 
-    <p><span style="color:rgb(41, 128, 185);"><b>1. Understanding User Queries :<b></span></p>
+    <p><span style="color:rgb(41, 128, 185);"><b>1. Understanding User Queries <b></span></p>
 
     <p style="text-align: justify;"><span style="color:#000000;"><i>
     How it Works: <br>
@@ -49,7 +49,7 @@ Roles in Project
     Example : 
     Input:"What anomalies can you see in this industrial part?"<br>
     NLP interprets the question, retrieves relevant visual information, and processes it to generate a meaningful response.<br>
-    <p><span style="color:rgb(41, 128, 185);"><b>2. Generating Explanatory Responses :<b></span></p>
+    <p><span style="color:rgb(41, 128, 185);"><b>2. Generating Explanatory Responses <b></span></p>
     How it Works:<br>
     Anomaly localization results from the visual pipeline are converted into prompt embeddings by the Prompt Learner.<br>
     The Vicuna-7B LLM processes these embeddings to generate human-like responses, ensuring the output is understandable and actionable.<br>
@@ -57,7 +57,7 @@ Roles in Project
     Visual Input: An image of a screw with missing threads.<br>
     User Query: "Describe the anomaly."<br>
     Output: "The screw has missing threads near the middle section, which could impact its functionality."<br>
-    3. Facilitating Multi-Turn Dialogue<br>
+    <p><span style="color:rgb(41, 128, 185);"><b>3. Facilitating Multi-Turn Dialogue<b></span></p>
     How it Works:<br>
     The model maintains a contextual understanding of previous queries and responses using the LLM’s capabilities.<br>
     Users can ask follow-up questions, and NLP ensures the system provides consistent and context-aware answers.<br>
@@ -66,7 +66,7 @@ Roles in Project
     System: "The metallic surface has a dent in the upper-left corner."<br>
     User: "Can you highlight the location?"<br>
     System: "The dent is highlighted in the following heatmap." (Heatmap provided alongside response)<br>
-    4. Aligning Text and Vision Information<br>
+    <p><span style="color:rgb(41, 128, 185);"><b>4. Aligning Text and Vision Information<b></span></p>
     How it Works:<br>
     Localization outputs from the Feature-Matching Decoder are transformed into prompts by the Prompt Learner.<br>
     These prompts are designed to align with the textual processing capabilities of the Vicuna-7B LLM, ensuring seamless integration of text and visual data.<br>
