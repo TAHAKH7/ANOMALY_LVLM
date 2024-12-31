@@ -22,6 +22,7 @@ ___________________________
 .. raw:: html
 
     <p style="text-align: justify;"><i>
+    <br>
     - <span style="color:blue;">Key Features :</span><span style="color:#000080;"><br>
       Automated Anomaly Judgments: Eliminates the need for manual threshold adjustments.<br>
       Pixel-Level Localization: Detects anomalies with high precision.<br>
@@ -34,7 +35,12 @@ ___________________________
 
     <p style="text-align: justify;"><i>
 
-    - <span style="color:blue;">Output : </span><span style="color:#000080;">The requested object, filtred and highlighted (segmented)
+    - <span style="color:blue;">Input : </span><span style="color:#000080;"><br>
+      Image Input:<br>
+      High-resolution industrial images of artifacts or components.<br>
+      Example datasets: MVTec-AD and VisA, which contain normal and anomalous images of various objects like screws, cables, and industrial parts.<br>
+      Textual Queries:<br>
+      User-generated natural language queries to specify the type of anomaly analysis required, for example : "Is there an anomaly in the image?" , "Highlight the anomalies in this image."<br>
     </i></span></p>
     <p style="text-align: justify;">
     <span style="color:blue;"><strong>  For example: </span></strong>
