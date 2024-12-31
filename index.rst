@@ -1,14 +1,19 @@
-                  AnomalyGPT
+AnomalyGPT
 ===========================
 
-.. raw:: html
-   Done by : <br>
-   El Maliani Latifa<br>
-   El Binani Salma<br>
-   Hemmi Mohamed Amine<br>
-   Hosni Souhail<br>
-   Khouzaima Mohamed Taha<br>
 
+.. raw:: html
+
+    <p style="text-align: justify;"><span style="color:#000080;">
+
+      Done by : <br>
+      El Maliani Latifa<br>
+      El Binani Salma<br>
+      Hemmi Mohamed Amine<br>
+      Hosni Souhail<br>
+      Khouzaima Mohamed Taha<br>
+
+   </span></p>
 
     <p><span style="color:white;">'</p></span>
 
