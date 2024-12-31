@@ -25,10 +25,6 @@ AnomalyGPT
       </strong></span>
    </p>
 
-.. figure:: /Documentation/images/anomalygpt_im.jpg
-   :width: 100%
-   :alt: Alternative text for the image
-   :name: logo
    
 
 

@@ -57,7 +57,6 @@ ___________________________
       Example: "The image contains anomalies." or "No anomaly detected."<br>
       -Localization Results:<br>
       Pixel-Level Localization: Outputs a heatmap or segmentation mask highlighting the anomalous regions.<br>
-
       -Textual Descriptions:<br>
       Generated natural language descriptions explaining the anomalies detected.<br>
       Example: "There is a scratch on the metallic surface." , "A crack is detected in the upper-right corner of the component."<br>
@@ -70,13 +69,14 @@ ___________________________
       System: "The deformation appears to be a dent with an approximate size of 2cm by 3cm."<br>
     </i></span></p>
 
+    <span style="color:blue;">Example : </span><span style="color:#000080;"><br>
+    </i></span></p>
+   
 
-
-
-.. figure:: /Documentation/images/IM.jpg
-   :width: 700
-   :align: center
+.. figure:: /Documentation/images/anomalygpt_im.jpg
+   :width: 100%
    :alt: Alternative text for the image
+   :name: logo
    
 
 .. raw:: html
