@@ -6,11 +6,6 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
 ___________________________
 
 
-.. figure:: /Documentation/images/compare.jpg
-   :width: 700
-   :align: center
-   :alt: Alternative text for the image
-
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;">
@@ -18,21 +13,23 @@ ___________________________
     AnomalyGPT is an innovative conversational vision-language model (LVLM) designed to address Industrial Anomaly Detection (IAD). Leveraging state-of-the-art LVLMs, AnomalyGPT overcomes challenges faced by traditional IAD methods, such as reliance on manual thresholds and limited adaptability to unseen object categories. This model integrates pre-trained language and vision modules to enable automated detection, precise anomaly localization, and interactive dialogue capabilities.
 
    </span></p>
+
+   .. figure:: /Documentation/images/compare.jpg
+   :width: 700
+   :align: center
+   :alt: Alternative text for the image
+
     <p style="text-align: justify;"><i>
 
     - <span style="color:blue;">Key Features :</span><span style="color:#000080;"> 
-      User text request (query or prompt) about an object.
+
+      Automated Anomaly Judgments: Eliminates the need for manual threshold adjustments.
       Pixel-Level Localization: Detects anomalies with high precision.
       Few-Shot Learning: Adapts to new datasets using a single normal sample.
       Multi-Turn Dialogue: Provides interactive insights for industrial anomaly detection.
 
     </i></span></p>
 
-    <p style="text-align: justify;"><i>
-
-    - <span style="color:blue;"> Second input : </span><span style="color:#000080;"> The image
-
-    </i></span></p>
 
     <p style="text-align: justify;"><i>
 

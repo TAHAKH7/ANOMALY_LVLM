@@ -17,7 +17,6 @@ AnomalyGPT
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
-   :border: 2px solid black
    
 
 
