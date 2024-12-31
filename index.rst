@@ -46,12 +46,12 @@ AnomalyGPT
 
 .. toctree::
    :maxdepth: 4
-   :caption: Foundation Models 
+   :caption: AI MODULES FOR AnomalyGPT
    
-   Documentation/scripts/foundation-models/Definition.rst
-   Documentation/scripts/foundation-models/Famous-Models.rst
-   Documentation/scripts/foundation-models/Role-in-the-Project.rst
-   Documentation/scripts/foundation-models/GroundingDino Finetunning.rst
+   Documentation/scripts/foundation-models/Natural Language Processing.rst
+   Documentation/scripts/foundation-models/Computer Vision.rst
+   Documentation/scripts/foundation-models/Convolutional Neural Networks.rst
+   Documentation/scripts/foundation-models/Neural Networks.rst
    Documentation/scripts/foundation-models/GroundingSam with customized weights.rst
 
 .. raw:: html

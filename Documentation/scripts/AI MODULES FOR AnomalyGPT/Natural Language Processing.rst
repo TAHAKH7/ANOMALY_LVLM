@@ -1,10 +1,10 @@
-Definition
+Natural Language Processing
 =============
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. figure:: /Documentation/images/foundation-models/definition/defff.jpg
+.. figure:: /Documentation/images/NLP.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -16,19 +16,17 @@ Definition
 
     <p><span style="color:white;">'</p></span>
 
-Introduction to Foundation  models
+What is Natural Language Processing ?
 ----------------------------------
 
 
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
-
-    Foundation models, a revolutionary advancement in Artificial Intelligence (AI), are poised to transform our interactions with computers and the world. These models are created through self-supervised learning on vast amounts of unlabeled data, enabling them to grasp patterns and relationships with remarkable accuracy. They excel in tasks such as image classification, natural language processing, and question-answering
+    Natural Language Processing (NLP) is a field of artificial intelligence that focuses on the interaction between computers and human languages. It enables machines to understand, interpret, and generate human language in a way that is meaningful. NLP combines techniques from linguistics, computer science, and machine learning to process and analyze large volumes of natural language data. Common applications of NLP include text analysis, language translation, sentiment analysis, speech recognition, and chatbot systems. By leveraging algorithms and models, NLP breaks down language into components like syntax (structure), semantics (meaning), and pragmatics (context) to enable machines to extract insights or generate coherent responses.
     </i></span></p>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
-
-    Foundation models form the basis of generative AI, empowering them to generate text, music, and images by predicting the next item in a sequence based on a given prompt. The future of foundation models is bright, driven by factors like the availability of extensive datasets, advancements in computing infrastructure, and the growing demand for AI applications. Google's LLM Jurassic-1 Jumbo, released in 2022, is the largest language model to date, with an astonishing 1.75 trillion parameters. OpenAI's DALL-E 2, introduced in 2023, is a text-to-image diffusion model that produces realistic images from textual descriptions, enabling diverse visual content creation. 
+    The core challenges of NLP lie in handling the ambiguity, complexity, and variability of human language. Words often have multiple meanings depending on context, and the same sentiment can be expressed in numerous ways. NLP techniques, such as tokenization, stemming, and parsing, preprocess language data to make it usable for models. Modern advancements like deep learning have propelled NLP capabilities, with architectures like transformers enabling state-of-the-art performance in tasks like text summarization, question answering, and conversational AI. By bridging the gap between human communication and computer systems, NLP plays a vital role in creating intelligent and accessible technologies.
     </i></span></p>
     <p><span style="color:white;">'</p></span>
 
@@ -37,18 +35,18 @@ Introduction to Foundation  models
 
 
 
-What are Foundation Models ?
+Roles in Project
 -------------------------------
 
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000080;"><i>
-
-    Foundation models are expansive machine learning models that undergo training on extensive datasets, enabling them to adapt to a wide range of tasks. These models, often trained using self-supervised learning or semi-supervised learning approaches, possess a notable advantage over task-specific models by leveraging unlabeled data for generalization. They have demonstrated exceptional efficacy in domains such as natural language processing, computer vision, and robotics. Prominent examples include GPT-3, which excels in generating text, language translation, and creative content, and BERT, which shows significant advancements in tasks like question answering and sentiment analysis. DALL-E 2, another remarkable model, can generate realistic images based on textual descriptions.
-    </i></span></p>
-    <p style="text-align: justify;"><span style="color:#000080;"><i>
-
-    Foundation models typically employ deep neural networks comprising interconnected layers of neurons to grasp intricate data patterns. The scale of these networks can be immense, with millions or even billions of parameters, necessitating considerable computational resources for training. Nevertheless, their large size enables them to capture complex patterns and relationships effectively, contributing to their remarkable performance across diverse tasks. 
+    1. Understanding User Queries : <br>
+    How it Works: <br>
+    User input (e.g., "Is there an anomaly in this image?") is tokenized and converted into embeddings using the Vicuna-7B large language model (LLM).<br>
+    These embeddings are aligned with visual embeddings generated from the Feature-Matching Decoder, ensuring the model understands the query in the context of the visual data.<br>
+    Example : Input:"What anomalies can you see in this industrial part?"<br>
+    NLP interprets the question, retrieves relevant visual information, and processes it to generate a meaningful response.<br>
     </i></span></p>
 
 
