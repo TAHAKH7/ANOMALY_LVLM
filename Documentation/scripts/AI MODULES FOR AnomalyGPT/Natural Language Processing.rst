@@ -39,7 +39,7 @@ Roles in Project
 -------------------------------
 
 .. raw:: html
-
+    <span style="color:blue;">Example : </span>
     <p style="text-align: justify;"><span style="color:#000000;"><i>
     1. Understanding User Queries : <br>
     How it Works: <br>
@@ -56,7 +56,23 @@ Roles in Project
     Visual Input: An image of a screw with missing threads.<br>
     User Query: "Describe the anomaly."<br>
     Output: "The screw has missing threads near the middle section, which could impact its functionality."<br>
-
+    3. Facilitating Multi-Turn Dialogue<br>
+    How it Works:<br>
+    The model maintains a contextual understanding of previous queries and responses using the LLM’s capabilities.<br>
+    Users can ask follow-up questions, and NLP ensures the system provides consistent and context-aware answers.<br>
+    Example:<br>
+    User: "What is wrong with this image?"<br>
+    System: "The metallic surface has a dent in the upper-left corner."<br>
+    User: "Can you highlight the location?"<br>
+    System: "The dent is highlighted in the following heatmap." (Heatmap provided alongside response)<br>
+    4. Aligning Text and Vision Information<br>
+    How it Works:<br>
+    Localization outputs from the Feature-Matching Decoder are transformed into prompts by the Prompt Learner.<br>
+    These prompts are designed to align with the textual processing capabilities of the Vicuna-7B LLM, ensuring seamless integration of text and visual data.<br>
+    Example:<br>
+    Localization Output: A segmentation map of a defective component.<br>
+    NLP Task: Generate a descriptive text explaining the anomaly based on the segmentation map.<br>
+    Output: "The highlighted region shows a crack extending diagonally across the lower-right corner."<br>
 
     </i></span></p>
 
