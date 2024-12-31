@@ -51,6 +51,7 @@ Roles in Project
     Example : 
     Input:"What anomalies can you see in this industrial part?"<br>
     NLP interprets the question, retrieves relevant visual information, and processes it to generate a meaningful response.<br>
+    <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>2. Generating Explanatory Responses <b></span></p>
 
@@ -61,6 +62,7 @@ Roles in Project
     Visual Input: An image of a screw with missing threads.<br>
     User Query: "Describe the anomaly."<br>
     Output: "The screw has missing threads near the middle section, which could impact its functionality."<br>
+    <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>3. Facilitating Multi-Turn Dialogue<b></span></p>
 
@@ -72,6 +74,7 @@ Roles in Project
     System: "The metallic surface has a dent in the upper-left corner."<br>
     User: "Can you highlight the location?"<br>
     System: "The dent is highlighted in the following heatmap." (Heatmap provided alongside response)<br>
+    <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>4. Aligning Text and Vision Information<b></span></p>
 
@@ -82,7 +85,7 @@ Roles in Project
     Localization Output: A segmentation map of a defective component.<br>
     NLP Task: Generate a descriptive text explaining the anomaly based on the segmentation map.<br>
     Output: "The highlighted region shows a crack extending diagonally across the lower-right corner."<br>
-    
+    <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>5. Few-Shot Adaptability<b></span></p>
 
@@ -91,6 +94,7 @@ Roles in Project
     Dataset: Images of industrial cables.<br>
     Few-Shot Learning Task: Explain anomalies in new cable types using only one reference image.<br>
     NLP Output: "This cable has a frayed end, which is unusual compared to the reference sample."<br>
+    <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>6. Human-Like Communication<b></span></p>
 
@@ -100,7 +104,8 @@ Roles in Project
     The system responds: "The part has a surface scratch near the bottom-right corner, as highlighted in the attached image."<br>
     The technician follows up: "Can this defect affect performance?"<br>
     The system responds: "Yes, this type of scratch may reduce the component’s durability under stress."<br>
-
+    <p><span style="color:white;">'</p></span>
+    
     </i></span></p>
 
 .. raw:: html
