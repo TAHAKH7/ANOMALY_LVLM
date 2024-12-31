@@ -39,6 +39,7 @@ Roles in Project
 -------------------------------
 
 .. raw:: html
+
     <p style="text-align: justify;"><span style="color:#000000;"><i>
     1. Understanding User Queries : <br>
     How it Works: <br>
@@ -72,16 +73,8 @@ Roles in Project
     Localization Output: A segmentation map of a defective component.<br>
     NLP Task: Generate a descriptive text explaining the anomaly based on the segmentation map.<br>
     Output: "The highlighted region shows a crack extending diagonally across the lower-right corner."<br>
-
     </i></span></p>
 
-
-
-.. admonition:: ChatGPT
-
-   .. container:: blue-box
-           
-    Click here to know that how `ChatGPT <https://www.xenonstack.com/blog/chatgpt-model-working>`__  utilizes self-attention and encoding mechanisms to process user prompts and generate human-like responses. 
 
 .. raw:: html
 
