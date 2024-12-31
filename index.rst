@@ -1,7 +1,14 @@
-AnomalyGPT
+                  AnomalyGPT
 ===========================
 
 .. raw:: html
+   Done by : <br>
+   El Maliani Latifa<br>
+   El Binani Salma<br>
+   Hemmi Mohamed Amine<br>
+   Hosni Souhail<br>
+   Khouzaima Mohamed Taha<br>
+
 
     <p><span style="color:white;">'</p></span>
 
