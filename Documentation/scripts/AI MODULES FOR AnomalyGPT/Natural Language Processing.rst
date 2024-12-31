@@ -43,14 +43,13 @@ Roles in Project
     <p><span style="color:rgb(41, 128, 185);"><b>1. Understanding User Queries :<b></span></p>
 
     <p style="text-align: justify;"><span style="color:#000000;"><i>
-    1. Understanding User Queries : <br>
     How it Works: <br>
     User input (e.g., "Is there an anomaly in this image?") is tokenized and converted into embeddings using the Vicuna-7B large language model (LLM).<br>
     These embeddings are aligned with visual embeddings generated from the Feature-Matching Decoder, ensuring the model understands the query in the context of the visual data.<br>
     Example : 
     Input:"What anomalies can you see in this industrial part?"<br>
     NLP interprets the question, retrieves relevant visual information, and processes it to generate a meaningful response.<br>
-    2. Generating Explanatory Responses : <br>
+    <p><span style="color:rgb(41, 128, 185);"><b>2. Generating Explanatory Responses :<b></span></p>
     How it Works:<br>
     Anomaly localization results from the visual pipeline are converted into prompt embeddings by the Prompt Learner.<br>
     The Vicuna-7B LLM processes these embeddings to generate human-like responses, ensuring the output is understandable and actionable.<br>
