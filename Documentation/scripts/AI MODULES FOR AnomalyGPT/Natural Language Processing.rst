@@ -40,15 +40,18 @@ Roles in Project
 
 .. raw:: html
 
-    <p><span style="color:rgb(41, 128, 185);"><b>1. Understanding User Queries <b></span></p>
 
     <p style="text-align: justify;"><span style="color:#000000;"><i>
+
+    <p><span style="color:rgb(41, 128, 185);"><b>1. Understanding User Queries <b></span></p>
+
     How it Works: <br>
     User input (e.g., "Is there an anomaly in this image?") is tokenized and converted into embeddings using the Vicuna-7B large language model (LLM).<br>
     These embeddings are aligned with visual embeddings generated from the Feature-Matching Decoder, ensuring the model understands the query in the context of the visual data.<br>
     Example : 
     Input:"What anomalies can you see in this industrial part?"<br>
     NLP interprets the question, retrieves relevant visual information, and processes it to generate a meaningful response.<br>
+
     <p><span style="color:rgb(41, 128, 185);"><b>2. Generating Explanatory Responses <b></span></p>
 
     How it Works:<br>
@@ -58,6 +61,7 @@ Roles in Project
     Visual Input: An image of a screw with missing threads.<br>
     User Query: "Describe the anomaly."<br>
     Output: "The screw has missing threads near the middle section, which could impact its functionality."<br>
+
     <p><span style="color:rgb(41, 128, 185);"><b>3. Facilitating Multi-Turn Dialogue<b></span></p>
 
     How it Works:<br>
@@ -68,6 +72,7 @@ Roles in Project
     System: "The metallic surface has a dent in the upper-left corner."<br>
     User: "Can you highlight the location?"<br>
     System: "The dent is highlighted in the following heatmap." (Heatmap provided alongside response)<br>
+
     <p><span style="color:rgb(41, 128, 185);"><b>4. Aligning Text and Vision Information<b></span></p>
 
     How it Works:<br>
@@ -77,9 +82,10 @@ Roles in Project
     Localization Output: A segmentation map of a defective component.<br>
     NLP Task: Generate a descriptive text explaining the anomaly based on the segmentation map.<br>
     Output: "The highlighted region shows a crack extending diagonally across the lower-right corner."<br>
-    </i></span></p>
+    
 
     <p><span style="color:rgb(41, 128, 185);"><b>5. Few-Shot Adaptability<b></span></p>
+
     NLP, through the Vicuna-7B LLM, contributes to the system’s ability to adapt to new datasets with minimal normal samples by effectively generating descriptions and understanding textual prompts associated with these datasets.<br>
     Example:<br>
     Dataset: Images of industrial cables.<br>
@@ -87,13 +93,16 @@ Roles in Project
     NLP Output: "This cable has a frayed end, which is unusual compared to the reference sample."<br>
 
     <p><span style="color:rgb(41, 128, 185);"><b>6. Human-Like Communication<b></span></p>
+
     NLP ensures that interactions with AnomalyGPT are natural and user-friendly, making it suitable for industrial environments where operators may need detailed, interactive feedback.<br>
     Example Use Case:<br>
     In a factory setting, a technician uploads an image of a defective component and asks: "What is the issue?"<br>
     The system responds: "The part has a surface scratch near the bottom-right corner, as highlighted in the attached image."<br>
     The technician follows up: "Can this defect affect performance?"<br>
     The system responds: "Yes, this type of scratch may reduce the component’s durability under stress."<br>
-    
+
+    </i></span></p>
+
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
