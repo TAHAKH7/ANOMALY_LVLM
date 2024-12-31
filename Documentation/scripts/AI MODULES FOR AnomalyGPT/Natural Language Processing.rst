@@ -39,8 +39,8 @@ Roles in Project
 -------------------------------
 
 .. raw:: html
-    <span style="color:blue;">Example : </span>
     <p style="text-align: justify;"><span style="color:#000000;"><i>
+    <p>This is <span style="color:red;">red</span> text.</p>
     1. Understanding User Queries : <br>
     How it Works: <br>
     User input (e.g., "Is there an anomaly in this image?") is tokenized and converted into embeddings using the Vicuna-7B large language model (LLM).<br>
