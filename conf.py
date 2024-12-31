@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'SegmaVision_Industrial field'
+project = 'AnomalyGPT'
 copyright = '2024, GIIADS'
-author = 'SegmaVision_Industrial field'
+author = 'Anomaly'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
