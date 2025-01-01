@@ -111,7 +111,7 @@ Roles in Project
     After generating localization maps, the visual outputs are paired with text-based user queries.<br>
     For example, the system combines a heatmap with a textual explanation, making the results more actionable.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>Example:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     User Query: "What is wrong with this component?"<br>
     Visual Output: A heatmap showing a crack in the upper-right corner.<br>
     Textual Output: "There is a crack in the upper-right corner of the component."<br>
