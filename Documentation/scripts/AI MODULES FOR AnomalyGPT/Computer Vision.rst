@@ -71,10 +71,10 @@ Roles in Project
 
     <p><span style="color:rgb(41, 128, 185);"><b>3. Few-Shot Learning<b></span></p>
 
-    How it Works:<br>
+    <p><span style="color:red;"><b>How it Works:</b></span></p>
     During inference, the system matches query images against a few stored normal samples.<br>
     Deviations from these references are identified as potential anomalies.<br>
-    Example:<br>
+    <p><span style="color:red;"><b>Example:</b></span></p>
     Reference Image: A normal cable.<br>
     Query Image: A frayed cable.<br>
     Output: Detection of the frayed section, with a heatmap showing its location.<br>
@@ -83,30 +83,33 @@ Roles in Project
     <p><span style="color:rgb(41, 128, 185);"><b>4. Integration with Vision-Language Models<b></span></p>
 
     Computer Vision bridges the gap between visual data and the Natural Language Processing (NLP) module by generating intermediate outputs that can be aligned with textual prompts.<br>
-    How it Works:<br>
+    <p><span style="color:white;">'</p></span>
+    <p><span style="color:red;"><b>How it Works:</b></span></p>
     Visual outputs, such as localization maps and segmentation results, are transformed into embeddings by the Prompt Learner.<br>
     These embeddings are aligned with textual inputs for meaningful responses.<br>
-    Example:<br>
+    <p><span style="color:red;"><b>Example:</b></span></p>
     Visual Input: A segmented image showing missing threads on a screw.<br>
     NLP Response: "The anomaly is located near the middle threads of the screw."<br>
     <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>5. Data Augmentation and Synthetic Anomaly Simulation<b></span></p>
 
-    How it Works:<br>
+    <p><span style="color:red;"><b>How it Works:</b></span></p>
     Synthetic anomalies are generated using techniques such as Cut-Paste and Poisson Editing, which simulate real-world defects like scratches, dents, or missing components.<br>
     These augmented datasets help the model generalize better to unseen anomalies.<br>
-    Example:<br>
+    <p><span style="color:white;">'</p></span>
+    <p><span style="color:red;"><b>Example:</b></span></p>
     Augmented Image: A simulated defect on a metallic panel (e.g., a scratch added using Poisson Editing).<br>
     Output: The system detects and localizes the synthetic anomaly during testing.<br>
     <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>6. Multi-Modal Interaction<b></span></p>
 
-    How it Works:<br>
+    <p><span style="color:red;"><b>How it Works:</b></span></p>
     After generating localization maps, the visual outputs are paired with text-based user queries.<br>
     For example, the system combines a heatmap with a textual explanation, making the results more actionable.<br>
-    Example:<br>
+    <p><span style="color:white;">'</p></span>
+    <p><span style="color:red;"><b>Example:</b></span></p>
     User Query: "What is wrong with this component?"<br>
     Visual Output: A heatmap showing a crack in the upper-right corner.<br>
     Textual Output: "There is a crack in the upper-right corner of the component."<br>
