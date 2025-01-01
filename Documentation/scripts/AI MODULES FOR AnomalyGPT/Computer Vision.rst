@@ -4,7 +4,7 @@ Computer Vision
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. figure:: /Documentation/images/Computer Vision.jpg
+.. figure:: /Documentation/images/computer.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
