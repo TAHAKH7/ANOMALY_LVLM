@@ -45,7 +45,7 @@ Roles in Project
     <p><span style="color:rgb(41, 128, 185);"><b>1. Feature Extraction<b></span></p>
 
     Computer Vision in AnomalyGPT begins with extracting visual features from input images using the ImageBind-Huge model, a pre-trained image encoder.<br>
-    <p style="margin: 2px;"><span style="color:white;"></span></p>
+    <p style="margin: 6px;"><span style="color:white;"></span></p>
     <p><span style="color:red;"><b>How it Works:</b></span></p>
     The image encoder processes high-resolution industrial images, converting them into hierarchical feature representations (Fimg).<br>
     These features capture important details such as textures, shapes, and patterns that are critical for identifying anomalies.<br>
