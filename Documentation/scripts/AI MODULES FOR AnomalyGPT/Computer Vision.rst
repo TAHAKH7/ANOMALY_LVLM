@@ -46,11 +46,11 @@ Roles in Project
 
     Computer Vision in AnomalyGPT begins with extracting visual features from input images using the ImageBind-Huge model, a pre-trained image encoder.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>How it Works:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     The image encoder processes high-resolution industrial images, converting them into hierarchical feature representations (Fimg).<br>
     These features capture important details such as textures, shapes, and patterns that are critical for identifying anomalies.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>Example:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     Input: An image of a screw.<br>
     Output: A feature map highlighting the physical characteristics of the screw, such as threads, length, and surface texture.<br>
     <p><span style="color:white;">'</p></span>
@@ -59,23 +59,23 @@ Roles in Project
 
     The Feature-Matching Decoder, a key Computer Vision module, uses extracted features to identify and localize anomalies at the pixel level.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>How it Works:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     The decoder compares patch-level features of the input image with a memory bank of normal reference features.<br>
     Areas in the input image that deviate significantly from the reference are marked as anomalous.<br>
     Localization maps are generated, highlighting specific regions with anomalies.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>Example:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     Input: An image of a metallic panel with scratches.<br>
     Output: A heatmap overlay on the image, highlighting the scratched regions for further inspection.<br>
     <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>3. Few-Shot Learning<b></span></p>
 
-    <p><span style="color:red;"><b>How it Works:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     During inference, the system matches query images against a few stored normal samples.<br>
     Deviations from these references are identified as potential anomalies.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>Example:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     Reference Image: A normal cable.<br>
     Query Image: A frayed cable.<br>
     Output: Detection of the frayed section, with a heatmap showing its location.<br>
@@ -85,29 +85,29 @@ Roles in Project
 
     Computer Vision bridges the gap between visual data and the Natural Language Processing (NLP) module by generating intermediate outputs that can be aligned with textual prompts.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>How it Works:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     Visual outputs, such as localization maps and segmentation results, are transformed into embeddings by the Prompt Learner.<br>
     These embeddings are aligned with textual inputs for meaningful responses.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>Example:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     Visual Input: A segmented image showing missing threads on a screw.<br>
     NLP Response: "The anomaly is located near the middle threads of the screw."<br>
     <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>5. Data Augmentation and Synthetic Anomaly Simulation<b></span></p>
 
-    <p><span style="color:red;"><b>How it Works:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     Synthetic anomalies are generated using techniques such as Cut-Paste and Poisson Editing, which simulate real-world defects like scratches, dents, or missing components.<br>
     These augmented datasets help the model generalize better to unseen anomalies.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    <p><span style="color:red;"><b>Example:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     Augmented Image: A simulated defect on a metallic panel (e.g., a scratch added using Poisson Editing).<br>
     Output: The system detects and localizes the synthetic anomaly during testing.<br>
     <p><span style="color:white;">'</p></span>
 
     <p><span style="color:rgb(41, 128, 185);"><b>6. Multi-Modal Interaction<b></span></p>
 
-    <p><span style="color:red;"><b>How it Works:</b></span></p>
+    <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     After generating localization maps, the visual outputs are paired with text-based user queries.<br>
     For example, the system combines a heatmap with a textual explanation, making the results more actionable.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
