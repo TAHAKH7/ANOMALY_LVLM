@@ -45,12 +45,12 @@ Roles in Project
     <p><span style="color:rgb(41, 128, 185);"><b>1. Feature Extraction<b></span></p>
 
     Computer Vision in AnomalyGPT begins with extracting visual features from input images using the ImageBind-Huge model, a pre-trained image encoder.<br>
-
+    <p><span style="color:white;">'</p></span>
     <p><span style="color:red;"><b>How it Works:</b></span></p>
     The image encoder processes high-resolution industrial images, converting them into hierarchical feature representations (Fimg).<br>
     These features capture important details such as textures, shapes, and patterns that are critical for identifying anomalies.<br>
-
-    <p><span style="color:red;"><b>Example</b></span></p>
+    <p><span style="color:white;">'</p></span>
+    <p><span style="color:red;"><b>Example:</b></span></p>
     Input: An image of a screw.<br>
     Output: A feature map highlighting the physical characteristics of the screw, such as threads, length, and surface texture.<br>
     <p><span style="color:white;">'</p></span>
@@ -58,11 +58,13 @@ Roles in Project
     <p><span style="color:rgb(41, 128, 185);"><b>2. Pixel-Level Anomaly Localization<b></span></p>
 
     The Feature-Matching Decoder, a key Computer Vision module, uses extracted features to identify and localize anomalies at the pixel level.<br>
-    How it Works:<br>
+    <p><span style="color:white;">'</p></span>
+    <p><span style="color:red;"><b>How it Works:</b></span></p>
     The decoder compares patch-level features of the input image with a memory bank of normal reference features.<br>
     Areas in the input image that deviate significantly from the reference are marked as anomalous.<br>
     Localization maps are generated, highlighting specific regions with anomalies.<br>
-    Example:<br>
+    <p><span style="color:white;">'</p></span>
+    <p><span style="color:red;"><b>Example:</b></span></p>
     Input: An image of a metallic panel with scratches.<br>
     Output: A heatmap overlay on the image, highlighting the scratched regions for further inspection.<br>
     <p><span style="color:white;">'</p></span>
