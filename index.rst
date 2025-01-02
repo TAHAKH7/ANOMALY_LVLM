@@ -1,10 +1,4 @@
 AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
-      Done by : 
-      El Maliani Latifa
-      El Binani Salma
-      Hemmi Mohamed Amine
-      Hosni Souhail
-      Khouzaima Mohamed Taha
 ===========================
 
 
