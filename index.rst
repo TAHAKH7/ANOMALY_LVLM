@@ -1,9 +1,5 @@
-.. raw:: html
-
-    <p style="text-align: center;">
-    <strong>AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models</strong>
-   </p>
-
+                  AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
+===========================
 
 
 .. raw:: html
