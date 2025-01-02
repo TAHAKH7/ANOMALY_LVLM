@@ -18,7 +18,7 @@ Pre-Trained Models
     Outputs features from intermediate layers for patch-level comparison and anomaly localization using a decoder.<br>
     Ensures multi-modal compatibility by aligning image features with textual descriptions, enabling seamless integration with the large language model (LLM).<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
-    
+
     </span></p>
 
 
@@ -28,7 +28,7 @@ Pre-Trained Models
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:#00008B;">
+    <p style="text-align: justify;"><span style="color:#000000;">
     The Vicuna-7B model is a pre-trained large language model (LLM) utilized for generating natural language responses based on user queries and visual embeddings. It is designed for interactive, multi-turn dialogue capabilities.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>
     <p style="color:red; margin-bottom: 8px;"><b>Contribution to the Project:</b></p>
