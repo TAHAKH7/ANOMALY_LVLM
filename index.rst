@@ -38,6 +38,7 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Natural Language Processing.rst
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Computer Vision & CNNs.rst
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Neural Networks.rst
+   Documentation/scripts/AI MODULES FOR AnomalyGPT/Workflow with AI Modules.rst
 
 .. raw:: html
 
@@ -60,13 +61,21 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
 
 .. toctree::
    :maxdepth: 3
-   :caption: References
+   :caption: Models&Data
 
-   Documentation/scripts/References/attention_is_all_you_need.rst
-   Documentation/scripts/References/AN-IMAGE-IS-WORTH.rst
-   Documentation/scripts/References/Pascal-voc.rst
-   Documentation/scripts/References/DINO.rst
-   Documentation/scripts/References/SAM.rst
+   Documentation/scripts/Models&Data/Models.rst
+   Documentation/scripts/Models&Data/Datasets.rst
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Evaluation
+
+   Documentation/scripts/Evaluation/Evaluation.rst
 
 .. raw:: html
 
@@ -74,9 +83,5 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
 
 
 
-.. figure:: /Documentation/images/text-prompt.avif
-   :width: 100%
-   :alt: Alternative text for the image
-   :name: logo
 
 
