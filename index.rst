@@ -1,10 +1,10 @@
-                  AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
+AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
 ===========================
 
 
 .. raw:: html
 
-    <p style="text-align: center;"><span style="color:#000000;">
+    <p style="text-align: center; font-weight: bold;"><span style="color:#000000;">
       Done by : <br>
       El Maliani Latifa<br>
       El Binani Salma<br>
@@ -12,8 +12,6 @@
       Hosni Souhail<br>
       Khouzaima Mohamed Taha<br>
    </span></p>
-
-
 
 
 
@@ -40,7 +38,7 @@
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Natural Language Processing.rst
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Computer Vision & CNNs.rst
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Neural Networks.rst
-   Documentation/scripts/AI MODULES FOR AnomalyGPT/GroundingSam with customized weights.rst
+   Documentation/scripts/AI MODULES FOR AnomalyGPT/Running AnomalyGPT Demo.rst
 
 .. raw:: html
 

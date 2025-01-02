@@ -18,15 +18,8 @@ What is Neural Networks ?
 .. raw:: html
 
     <p style="text-align: justify;"><span style="color:#000000;"><i>
-    Computer Vision is a branch of artificial intelligence (AI) that focuses on enabling machines to interpret, analyze, and understand visual data from the world. This involves tasks such as object detection, image classification, segmentation, anomaly detection, and more. Computer vision systems use algorithms to process and extract meaningful information from images or videos, simulating how humans perceive and analyze visual inputs. Its applications include facial recognition, autonomous vehicles, medical imaging, and industrial quality control.
+    Neural Networks are a class of machine learning models inspired by the structure and function of biological neural networks in the human brain. They consist of layers of interconnected nodes (neurons) that process data by applying weights and biases to inputs and passing them through activation functions. Neural networks learn patterns from data through a process called backpropagation, where errors are minimized by adjusting weights iteratively. These models excel in tasks like classification, regression, clustering, and feature extraction, making them foundational to modern artificial intelligence and deep learning.
     </i></span></p>
-    <p style="text-align: justify;"><span style="color:#000000;"><i>
-    Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed for processing structured grid data like images. CNNs excel in capturing spatial hierarchies in visual data by applying convolutional layers that detect features like edges, textures, and objects. These layers allow the network to learn from raw image pixels and extract high-level patterns that are crucial for image analysis tasks. CNNs are widely used in computer vision tasks due to their ability to handle large-scale image data with high accuracy and efficiency.
-    </i></span></p>
-    <p style="text-align: justify;"><span style="color:#000000;"><i>
-    The relationship between Computer Vision and Convolutional Neural Networks (CNNs) is deeply intertwined, as CNNs serve as the foundational models that enable most modern computer vision tasks. Computer vision defines the objectives, such as object detection, segmentation, or anomaly detection, while CNNs provide the computational framework to achieve these goals by processing and analyzing visual data. CNNs extract hierarchical features from images, identifying patterns like edges, textures, and shapes, which are essential for understanding visual inputs. For instance, in anomaly detection, computer vision sets the task of identifying defects in industrial images, and CNNs process the images to localize anomalies with precision, often generating heatmaps or segmentation outputs. Together, computer vision provides the "what to do," and CNNs deliver the "how to do it," creating powerful systems capable of interpreting and acting on complex visual data.
-    </i></span></p>
-    <p><span style="color:white;">'</p></span>
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------

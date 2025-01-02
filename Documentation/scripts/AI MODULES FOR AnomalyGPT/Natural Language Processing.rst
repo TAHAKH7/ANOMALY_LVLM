@@ -4,11 +4,6 @@ Natural Language Processing
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. figure:: /Documentation/images/NLP.jpg
-   :width: 700
-   :align: center
-   :alt: Alternative text for the image
-
 
 
 
