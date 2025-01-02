@@ -26,3 +26,5 @@ torchvision==0.14.1
 tqdm==4.64.1
 transformers==4.29.1
 sentencepiece
+sphinx
+sphinx-rtd-theme==1.3.0
