@@ -3,21 +3,19 @@ Running AnomalyGPT Demo
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+
+1-Environment Installation
+----------------------
+
 .. raw:: html
 
-    <p><span style="color:white;">'</p></span>
-    <p style="text-align: justify;"><span style="color:#000080;"><i>  
-    GroundingSam output after importing finetunned GroundingDINO weight and SAM original weights 
-   </i></span></p>
-
-    <p><span style="color:white;">'</p></span>
-
-Clone the Repository
-----------------------
+    <p style="text-align: justify;"><span style="color:#000000;"><i>
+    Clone the repository locally:
+    </i></span></p>
 
 .. code-block:: python
 
-    !git clone https://github.com/SAAD1190/GroundingSam.git
+    git clone https://github.com/TAHAKH7/ANOMALY_LVLM.git
 
 
 .. raw:: html
@@ -27,61 +25,48 @@ Clone the Repository
     </i></span></p>  
     <p><span style="color:white;">'</p></span>
 
-
-Install Dependencies
------------------------------
+    <p style="text-align: justify;"><span style="color:#000000;"><i>
+    Install the required packages:
+    </i></span></p>
 
 .. code-block:: python
 
-    HOME = "/content/GroundingSam"
-    %cd {HOME}
-    !bash dependencies.sh  # Install the necessary dependencies
+    pip install -r requirements.txt
 
-
+Prepare ImageBind Checkpoint
+-----------------------------
 
 .. raw:: html
   
-    <p style="text-align: justify;"><span style="color:blue;"><i> 
-    - <strong>Explanation:</strong></span><span style="color:#000080;">Moves to the repository directory and runs a script (dependencies.sh) that installs required Python libraries and dependencies for the project
-    </i></span></p>  
-    <p><span style="color:white;">'</p></span>
+    <p style="text-align: justify;"><span style="color:#000000;"><i>
+    You can download the pre-trained ImageBind model using <a href="https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth" target="_blank">this link</a><br>
+    After downloading, put the downloaded file (imagebind_huge.pth) in [./pretrained_ckpt/imagebind_ckpt/] directory
+    </i></span></p>
  
-Create Folders for Model Weights and Annotations
+Prepare Vicuna Checkpoint
 ----------------------------
-
-.. code-block:: python
-
-    !mkdir {HOME}/weights
-    !mkdir {HOME}/annotations
-
 
 .. raw:: html
 
-    <p style="text-align: justify;"><span style="color:blue;"><i> 
-    - <strong>Explanation:</strong></span><span style="color:#000080;">Creates directories to store downloaded model weights and annotations generated during the detection and segmentation tasks
-    </i></span></p>  
-    <p><span style="color:white;">'</p></span>
+    <p style="text-align: justify;"><span style="color:#000000;"><i>
+    To prepare the pre-trained Vicuna model, please follow the instructions provided in <a href="https://github.com/CASIA-IVA-Lab/AnomalyGPT/tree/main/pretrained_ckpt#1-prepare-vicuna-checkpoint" target="_blank">here</a><br>
+    </i></span></p>
 
 
-Download Custom Model Weights
+Prepare Delta Weights of AnomalyGPT
 ------------------------
 
-.. code-block:: python
+.. raw:: html
 
-    %cd ./weights
-    from google.colab import drive
-    drive.mount('/content/drive')
-
-    # Install gdown if not already installed
-    !pip install gdown
-
-    # Download the custom weights from Google Drive
-    file_id = "1ovh5uuY2YdqKadh_Niy5FHAX8YXTvGOQ"
-    output_file = "downloaded_file"
-
-    !gdown --id {file_id} -O {output_file}
-    %cd {HOME}
-
+    <p style="text-align: justify;"><span style="color:#000000;"><i>
+    We use the pre-trained parameters from <a href="https://github.com/yxuansu/PandaGPT" target="_blank">PandaGPT</a> to initialize our model. You can get the weights of PandaGPT trained with different strategies in the table below.<br>
+    In our experiments and online demo, we use the Vicuna-7B and <a href="https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024" target="_blank">openllmplayground/pandagpt_7b_max_len_1024</a> due to the limitation of computation resource. Better results are expected if switching to Vicuna-13B.<br>
+    After that, put the downloaded 7B/13B delta weights file (pytorch_model.pt) in the ./pretrained_ckpt/pandagpt_ckpt/7b/ or ./pretrained_ckpt/pandagpt_ckpt/13b/ directory.<br>
+    Then, you can download AnomalyGPT weights from those links : 
+    <a href="https://huggingface.co/FantasticGNU/AnomalyGPT/blob/main/train_mvtec/pytorch_model.pt" target="_blank">Unsupervised on MVTec-AD</a>
+    <a href="https://huggingface.co/FantasticGNU/AnomalyGPT/blob/main/train_visa/pytorch_model.pt" target="_blank">Unsupervised on VisA</a>
+    <a href="https://huggingface.co/FantasticGNU/AnomalyGPT/blob/main/train_supervised/pytorch_model.pt" target="_blank">Supervised on MVTec-AD, VisA, MVTec-LOCO-AD and CrackForest</a>
+    </i></span></p>
 
 
 
