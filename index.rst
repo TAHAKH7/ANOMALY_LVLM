@@ -1,5 +1,9 @@
-AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
-===========================
+.. raw:: html
+
+    <p style="text-align: center;">
+    <strong>AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models</strong>
+   </p>
+
 
 
 .. raw:: html
@@ -13,8 +17,6 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
       Khouzaima Mohamed Taha<br>
    </span></p>
 
-
-    <p><span style="color:white;">'</p></span>
 
 
 
