@@ -51,7 +51,7 @@ Workflow with AI Modules
     <p><span style="color:rgb(41, 128, 185);"><b>Output<b></span></p>
     Textual Response: "Yes, the screw is missing threads near the middle."<br>
     <p><span style="color:white;">'</p></span>
-    <p style="color:red; margin-bottom: 8px;"><b>Step 2: Feature Alignment (Neural Networks)</b></p>
+    <p style="color:red; margin-bottom: 8px;"><b>Step 4: Dialogue</b></p>
     <p style="color:green; margin-bottom: 8px;"><b>User Follow-Up Query:</b></p>
     The user asks, "Can you highlight the location?"<br>
     This query is passed back into the system, triggering a new processing cycle to refine the output.<br>

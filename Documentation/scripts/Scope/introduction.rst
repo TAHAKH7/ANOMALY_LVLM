@@ -27,7 +27,7 @@ ___________________________
 
    </span></p>
 
-.. figure:: /Documentation/images/AnomalyGPT.jpg
+.. figure:: /Documentation/images/ANOMALY.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
@@ -92,7 +92,7 @@ ___________________________
     </i></span></p>
    
 
-.. figure:: /Documentation/images/anomalygpt_im.jpg
+.. figure:: /Documentation/images/EXAMPLE-ANOMALY.jpg
    :width: 100%
    :alt: Alternative text for the image
    :name: logo

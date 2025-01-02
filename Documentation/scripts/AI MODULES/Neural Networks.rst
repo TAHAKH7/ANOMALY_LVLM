@@ -61,6 +61,7 @@ Roles in Project
 
     <p><span style="color:rgb(41, 128, 185);"><b>3. Few-Shot and In-Context Learning<b></span></p>
     Neural networks store and retrieve patch-level features in memory banks for few-shot learning scenarios, allowing the system to adapt to new datasets with minimal data.<br>
+    <p style="margin: 8px;"><span style="color:white;"></span></p>
     <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     Features from a few normal samples are stored in a memory bank.<br>
     During inference, the neural network compares these stored features with test samples to localize anomalies.<br>

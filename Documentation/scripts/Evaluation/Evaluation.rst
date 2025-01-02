@@ -18,7 +18,7 @@ Evaluation
     <p style="color:red; margin-bottom: 8px;"><b>Results:</b></p>
     MVTec-AD: 97.4%
     VisA (Few-Shot): 87.4%
-
+    <p style="margin: 8px;"><span style="color:white;"></span></p>
     <p style="color:blue; margin-bottom: 8px;"><b>Pixel-Level AUC:</b></p>
     Evaluates the precision of anomaly localization by comparing the predicted heatmap to ground truth anomaly masks.<br>
     Higher values reflect better localization accuracy.<br>
@@ -26,7 +26,7 @@ Evaluation
     <p style="color:red; margin-bottom: 8px;"><b>Results:</b></p>
     MVTec-AD: 93.1%
     VisA (Few-Shot): 96.2%
-
+    <p style="margin: 8px;"><span style="color:white;"></span></p>
     <p style="color:blue; margin-bottom: 8px;"><b>Accuracy:</b></p>
     The percentage of correctly classified samples (normal or anomalous) during testing.<br>
     <p style="margin: 8px;"><span style="color:white;"></span></p>

@@ -66,6 +66,7 @@ Roles in Project
     <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     The model maintains a contextual understanding of previous queries and responses using the LLM’s capabilities.<br>
     Users can ask follow-up questions, and NLP ensures the system provides consistent and context-aware answers.<br>
+    <p style="margin: 8px;"><span style="color:white;"></span></p>
     <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     User: "What is wrong with this image?"<br>
     System: "The metallic surface has a dent in the upper-left corner."<br>
@@ -78,6 +79,7 @@ Roles in Project
     <p style="color:red; margin-bottom: 8px;"><b>How it Works:</b></p>
     Localization outputs from the Feature-Matching Decoder are transformed into prompts by the Prompt Learner.<br>
     These prompts are designed to align with the textual processing capabilities of the Vicuna-7B LLM, ensuring seamless integration of text and visual data.<br>
+    <p style="margin: 8px;"><span style="color:white;"></span></p>
     <p style="color:red; margin-bottom: 8px;"><b>Example:</b></p>
     Localization Output: A segmentation map of a defective component.<br>
     NLP Task: Generate a descriptive text explaining the anomaly based on the segmentation map.<br>

@@ -33,12 +33,12 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
 
 .. toctree::
    :maxdepth: 4
-   :caption: AI MODULES FOR AnomalyGPT
+   :caption: AI MODULES 
    
-   Documentation/scripts/AI MODULES FOR AnomalyGPT/Natural Language Processing.rst
-   Documentation/scripts/AI MODULES FOR AnomalyGPT/Computer Vision & CNNs.rst
-   Documentation/scripts/AI MODULES FOR AnomalyGPT/Neural Networks.rst
-   Documentation/scripts/AI MODULES FOR AnomalyGPT/Workflow with AI Modules.rst
+   Documentation/scripts/AI MODULES/Natural Language Processing.rst
+   Documentation/scripts/AI MODULES/Computer Vision & CNNs.rst
+   Documentation/scripts/AI MODULES/Neural Networks.rst
+   Documentation/scripts/AI MODULES/Workflow with AI Modules.rst
 
 .. raw:: html
 

@@ -41,12 +41,9 @@ Train Your Own AnomalyGPT
     |-----|-----|--- image_anno.csv<br>
     |-----|-- capsules<br>
     |-----|-----|----- ...<br>
+
     </i></span></p>
     
-
-
-    <p><span style="color:white;">'</p></span>
-
 
 2-Training Configurations:
 -----------------------------------
@@ -55,7 +52,7 @@ Train Your Own AnomalyGPT
    
     <p style="text-align: justify;"><span style="color:#000000;"><i>
     The table below show the training hyperparameters used in our experiments. The hyperparameters are selected based on the constrain of our computational resources, i.e. 2 x RTX3090 GPUs.<br>
-    <p><span style="color:white;">'</p></span>
+    </i></span></p>
 
 .. figure:: /Documentation/images/config.jpg
    :width:  700
@@ -72,8 +69,8 @@ Train Your Own AnomalyGPT
    
     <p style="text-align: justify;"><span style="color:#000000;"><i>
     To train AnomalyGPT on MVTec-AD dataset, please run the following commands:<br>
-    <p><span style="color:white;">'</p></span>
-
+    </i></span></p>
+    
 .. code-block:: python
 
     cd ./code

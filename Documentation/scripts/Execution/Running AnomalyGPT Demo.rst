@@ -57,7 +57,7 @@ Running AnomalyGPT Demo
     We use the pre-trained parameters from <a href="https://github.com/yxuansu/PandaGPT" target="_blank">PandaGPT</a> to initialize our model. You can get the weights of PandaGPT trained with different strategies in the table below.<br>
     In our experiments and online demo, we use the Vicuna-7B and <a href="https://huggingface.co/openllmplayground/pandagpt_7b_max_len_1024" target="_blank">openllmplayground/pandagpt_7b_max_len_1024</a> due to the limitation of computation resource. Better results are expected if switching to Vicuna-13B.<br>
     After that, put the downloaded 7B/13B delta weights file (pytorch_model.pt) in the ./pretrained_ckpt/pandagpt_ckpt/7b/ or ./pretrained_ckpt/pandagpt_ckpt/13b/ directory.<br>
-    Then, you can download AnomalyGPT weights from those links : 
+    Then, you can download AnomalyGPT weights from those links : <br>
     <a href="https://huggingface.co/FantasticGNU/AnomalyGPT/blob/main/train_mvtec/pytorch_model.pt" target="_blank">Unsupervised on MVTec-AD</a><br>
     <a href="https://huggingface.co/FantasticGNU/AnomalyGPT/blob/main/train_visa/pytorch_model.pt" target="_blank">Unsupervised on VisA</a><br>
     <a href="https://huggingface.co/FantasticGNU/AnomalyGPT/blob/main/train_supervised/pytorch_model.pt" target="_blank">Supervised on MVTec-AD, VisA, MVTec-LOCO-AD and CrackForest</a><br>
