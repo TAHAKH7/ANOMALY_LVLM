@@ -38,7 +38,6 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Natural Language Processing.rst
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Computer Vision & CNNs.rst
    Documentation/scripts/AI MODULES FOR AnomalyGPT/Neural Networks.rst
-   Documentation/scripts/AI MODULES FOR AnomalyGPT/Running AnomalyGPT Demo.rst
 
 .. raw:: html
 
@@ -47,13 +46,10 @@ AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models
 
 .. toctree::
    :maxdepth: 3
-   :caption: image Segmentation
+   :caption: Execution
 
-   Documentation/scripts/Image-Segmentation/definition.rst
-   Documentation/scripts/Image-Segmentation/State-Art.rst
-   Documentation/scripts/Image-Segmentation/Datasets.rst
-   Documentation/scripts/Image-Segmentation/Role_in_the_project.rst
-   Documentation/scripts/Image-Segmentation/Prompt.rst
+   Documentation/scripts/Execution/Running AnomalyGPT Demo.rst
+   Documentation/scripts/Execution/Train Your Own AnomalyGPT.rst
 
 
 
